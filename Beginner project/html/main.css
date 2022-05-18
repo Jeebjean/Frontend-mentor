@@ -1,0 +1,122 @@
+/********* BELLOW: index.html STYLE ONLY *********/
+* {
+  /* Resets The Browswer's Default Settings To Zero */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: Verdana;
+  padding-right: 0;
+}
+
+#header {
+  margin-bottom: 20px;
+  background-color: #2196F3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+#heading{
+  font-size: 35px;
+}
+
+#toc {
+  float: left; /* floats the Table Of Content's  container to the left */
+  width: 35%;
+  text-align: center;
+  padding-left: 50px;
+}
+
+#toc h2 {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#toc ol {
+  list-style-type: none;
+  text-align: left;
+}
+
+.menu {
+  background-color: ;
+  color: black;
+  font-size: 14px;
+}
+
+li {
+  cursor: pointer;
+}
+
+h1 a, li a {
+  padding: 5px;
+  text-decoration: none;
+  color: #000;
+
+}
+
+li a:hover {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.menu li {
+  margin-bottom: 8px;
+}
+
+/* IFRAME */
+iframe {
+  scroll-behavior: smooth;
+  float: left;
+  width: 65%;
+  min-height: 750px;
+  border: none;
+  overflow: hidden;
+  padding: 0 5px;
+  clear: right;
+}
+
+.clearFix::after {
+  /****** Fixes the floating of the iframe issue (Read about clearfix)*****/
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/****** THE PAGE FOOTER *******/
+#foot{
+  width: 100%;
+  background-color:#2196F3;
+  opacity: .5;
+  text-align:center;
+  padding:20px;
+  margin-top:7px;
+  color: #fff;
+}
+
+/******** FOR SMALLER SCREEN SIZE *******/
+@media only screen and (max-width: 1000px) {
+
+  #toc,
+  .main, iframe {
+    margin-bottom: 50px;
+    clear: both;
+    width: 100%;
+  }
+
+  #toc {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  iframe{
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 200px;
+  }
+}

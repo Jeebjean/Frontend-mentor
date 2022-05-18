@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+  
+  <style>
+
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        width: 1440px;
+        height: 100vh;
+        background-color: hsl(204, 43%, 93%);
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        display: flex;
+      }
+
+      .main{
+        width: 45%;
+        background-color: white;
+        border-radius: 10px; 
+        margin: auto;
+        
+      }
+
+      .content{
+        width: 100%;
+        padding: 30px 50px 10px 30px;
+        line-height: 1.5;
+       
+      }
+
+      .title{
+        color: hsl(179, 62%, 43%);
+        margin-bottom: 20px;
+      }
+
+      .title1{
+        color: hsl(71, 73%, 54%);
+        margin-bottom: 15px;
+      }
+
+      .para1{
+        color: hsl(218, 22%, 67%);
+        margin-bottom: 25px;
+      }
+
+      .content1{
+        width: 50%;
+        background-color: hsl(179, 62%, 43%);
+        display: inline-block;
+        padding: 30px 30px 15px 30px;
+        border-bottom-left-radius: 10px;
+        font-size: 14px;
+       
+      
+        
+      }
+
+      .content2{
+        width: 50%;
+        background-color: hsl(179, 44%, 62%);
+        display: inline-block;
+        float: right;
+        padding: 30px 50px 35px 30px;
+        font-size: 15px;
+        border-bottom-right-radius: 10px;
+      }
+
+      .title2{
+        color: white;
+        margin-bottom: 20px;
+      }
+
+      .para2{
+        color: hsl(218, 22%, 67%);
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+
+      span{
+        color: white;
+        font-size: 25px;
+        font-weight: 300;
+      }
+
+      .para3{
+        color: hsl(204, 43%, 93%);
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      button{
+        width: 90%;
+        background-color: hsl(71, 73%, 54%);
+        color:  hsl(204, 43%, 93%);
+        border: none;
+        border-radius: 5px;
+        padding: 7px;
+        margin: 15px 0 30px;
+      }
+
+      .title3{
+        color: hsl(204, 43%, 93%);
+        margin-bottom: 15px;
+      }
+
+      .para4{
+        color: hsl(204, 43%, 93%);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+  </style>
+</head>
+<body>
+  <div class="main">
+          <div class="content">
+            <h1 class="title">Join our community</h1>
+            <h2 class="title1">30-day, hassle-free money back guarantee</h2>
+            <p class="para1">Grain access to our full libraey of tutorials along with expert code review.
+               Perfect for any developers who are serious about honing their skills.</p>
+
+          </div>
+          <div class="content1">
+             <h2 class="title2">Monthly Subscription</h2>
+             <p class="para2"><span>$29</span> per month</p>
+             <p class="para3">Full access for less than $1 a day</p>
+             <button type="button" name="sign">Sign Up</button>
+          </div>
+
+          <div class="content2">
+            <h2 class="title3">Why Us</h2>
+            <p class="para4">Tutorials by industry experts <br>
+              Peer & expert code review <br> Coding exercices <br>
+              Access to our GitHub repos <br>
+              Community forum <br> Flashcard decks <br>
+              New videos every week
+            </p>
+          </div>
+ </div>
+</body>
+</html>

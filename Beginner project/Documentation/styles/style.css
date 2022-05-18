@@ -1,0 +1,24 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	border: solid black 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+}
+
+#main{
+	font-size: 50px;
+	color: #1ABC9C ;
+	text-align: center;
+}
+
+#toc{
+	font-size:40px;
+	color: #566573 ;
+	text-align: center;
+}
+
+#TOC{
+	color: #7F8C8D;
+
+}

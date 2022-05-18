@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+       width: 1440px;
+       height: 100vh;
+       font-family: 'Kumbh Sans', sans-serif;  
+       background-image:url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+       background-repeat:no-repeat;
+       background-position: right bottom, left top;
+       background-size:600px ;
+       background-color: hsl(185, 75%, 39%);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       }
+
+  .main{
+       width: 20%;
+       border-radius: 10px;
+       background-color: white;
+       background-image: url(images/bg-pattern-card.svg);
+       background-repeat: no-repeat;
+       background-size: contain;
+       margin: auto;
+       text-align: center;
+       font-size: 13px;
+  }
+
+  img{
+    margin-top: 80px;
+    border: 4px solid white;
+    border-radius: 50px;
+  }
+  .name {
+   
+    margin: 15px 0 15px 0;
+  }
+  
+  p, span{
+    color: hsl(0, 0%, 59%);
+    font-weight: 100;
+  }
+ .review h2{
+  margin-bottom: 7px;
+   
+ }
+ .follow, .like, .photo {
+   display: inline-block;
+ }
+
+ .like{
+   margin-left: 45px;
+   margin-right: 45px;
+   margin-top: 15px;
+   margin-bottom: 25px;
+ }
+  
+  
+</style>
+</head>
+<body>
+    <div class="main">
+
+      <img src="images/image-victor.jpg" alt="image-victor">
+
+      <div class="name">
+        <h2>Victor crest <span>26</span></h2> <br>
+        <p>London</p>
+      </div>
+
+      <hr>
+
+      <div class="review">
+
+        <div class="follow"> 
+
+          <h2>80k</h2>
+          <p>Followers</p>
+
+        </div>
+
+        <div class="like">
+
+          <h2>803k</h2>
+          <p>Likes</p>
+
+        </div>
+
+        <div class="photo">
+
+          <h2>1.4k</h2>
+          <p>Photos</p>
+          
+        </div>
+
+      </div>
+
+    </div>
+</body>
+</html>

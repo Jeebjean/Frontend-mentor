@@ -1,0 +1,56 @@
+body{
+     background-color:#ffe4c4 ;
+     Background-image: url("images/arri.jpg");
+}
+
+
+H1{
+  color:#ffe4c4;
+  Font-size:50px;
+  Margin-top: 20px;
+  Margin-bottom: 20px;
+  Margin-right: 20px;
+  Margin-left: 20px;
+  Text-align: center;
+}
+
+H2{
+  color: #778899;
+  Font-size:italic;
+  /*
+  Margin-top: 20px;
+  Margin-bottom: 20px;
+  Margin-right: 20px;
+  Margin-left: 20px;
+  */
+  Text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#item{
+     Color: #dc143c;
+}
+
+Ul{
+   color: #FFFFFF;
+   width: 150px;
+   margin: 0 auto;
+   background-color: #000000;
+   border: 0px solid black;
+}
+
+.item{
+    Color: #1e90ff;
+    Font-size:20px;
+}
+P {
+  color: #FFFFFF;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #000000;
+  border: 0px solid black;
+  

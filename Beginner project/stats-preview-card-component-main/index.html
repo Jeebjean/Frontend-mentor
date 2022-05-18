@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    *{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+      
+       
+    
+    } 
+      body{
+        background-color: hsl(233, 47%, 7%);
+        display: flex;
+        min-width: 100%;
+        min-height: 100vh;
+        
+       }
+
+       #general{
+         width: 900px;
+         height: 350px;
+         margin:auto;
+      
+       }
+
+       #main1{
+             width: 50%;
+             background-color: hsl(244, 38%, 16%);
+             padding: 40px 60px 40px 50px;
+             display: inline-block;
+             height: 100%;
+             float: left;
+            
+       }
+
+       #main2{
+             width: 50%;
+             height: 100%;
+             display: inline-block;
+             
+            }
+
+      #main2 img{
+        width: 100%;
+        height: 100%;
+        
+      }
+
+
+       #main1 h1, #main1 h2{
+         color: white;
+       }
+
+       #main1 p{
+         color: hsla(0, 0%, 100%, 0.75);
+         font-size: 14px;
+         font-family: 'Inter', sans-serif;
+         line-height: 1.5;
+       }
+       #para{
+         margin-top: 30px;
+         margin-bottom: 60px;
+       }
+
+       span{
+         color: blueviolet;
+       }
+
+       #contener1, #contener2, #contener3{
+         display: inline-block;
+         font-size: 13px;
+         font-family: 'Inter', sans-serif;
+         line-height: 1.5;
+       }
+
+       #contener2, #contener3{
+         margin-left: 55px;
+         
+       }
+       #contener1 p, #contener2 p, #contener3 p{
+         font-size: 12px;
+       }
+
+
+       #main1{
+         
+         
+       }
+
+     
+       
+
+      
+
+       
+  </style>
+</head>
+<body>
+  <div id="general">
+
+    <div id="main1">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p id="para">Discover the benefits of data analytics and make better decision regarding revenue, 
+          customer experience, and overail efficiency.</p>
+
+          <div id="contener1">
+            <h2>10k+</h2>
+            <p>COMPANIES</p>
+          </div>
+
+          <div id="contener2">
+            <h2>314</h2>
+            <p>TEMPLATES</p>
+          </div>
+
+          <div id="contener3">
+            <h2>12M+</h2>
+            <p>QUERIES</p>
+          </div>
+    </div>
+
+    <div id="main2">
+      <img src="images/image-header-desktop.jpg" alt="My image-header-desktop">
+    </div>
+     
+  </div>
+    
+</body>
+</html>

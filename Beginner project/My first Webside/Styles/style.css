@@ -1,0 +1,30 @@
+
+H1{
+  color: red;
+  Font-size:50px;
+  Margin-top: 20px;
+  Margin-bottom: 20px;
+  Margin-right: 20px;
+  Margin-left: 20px;
+  Text-align: center;
+}
+
+
+p {
+  Color: teal;
+  Font-size: 20px;
+  Font-family: ;
+  /* Width: 400px; */
+  Text-align:center;
+  Border: solid 1px green;
+  /* Margin: 0 auto; */
+
+}
+ 
+Img{
+  
+   Width:500px;
+   Display: block;
+   Margin: 0 auto;
+}
+
